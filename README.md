@@ -30,4 +30,4 @@ Figure 3 is a visualization of how well the model was able to predict a patient'
 
 # ANALYSIS
 
-To analyze the data, I performed a multiple logistic regression. This regression method was used to predict the categorical survival variable from the numerical, percentage of bone marrow blasts and hemoglobin levels, variables. The regression model was only able to accurately predict the survival of 48% of the patients represented in the provided data. 
+To analyze the data, I performed a multiple logistic regression. This regression method was used to predict the categorical survival variable from the numerical variables, percentage of bone marrow blasts and hemoglobin levels. The regression model was only able to accurately predict the survival of 48% of the patients represented in the provided data. 
