@@ -30,4 +30,8 @@ Figure 3 is a visualization of how well the model was able to predict a patient'
 
 # ANALYSIS
 
-To analyze the data, I performed a multiple logistic regression. This regression method was used to predict the categorical survival variable from the numerical variables, percentage of bone marrow blasts and hemoglobin levels. The regression model was only able to accurately predict the survival of 48% of the patients represented in the provided data. 
+To analyze the data, I performed a multiple logistic regression. This regression method was used to predict the categorical survival variable from the numerical variables, percentage of bone marrow blasts and hemoglobin levels. The following model was suggested from the multiple logisitic regression:
+
+ln((Cause of Death)/(1-(Cause of Death))) = -1.124330 -0.001624(Blast Percentage) + 0.116083(Hemoglobin Levels)
+
+The regression model was only able to accurately predict the survival of 48% of the patients represented in the provided data. This suggests that the variables, bone marrow blast percentage and hemoglobin levels, should not be used to predict the survival of a Leukemia patient. It is necessary to further explore other variables in order to find factors that are more influential in the survival of Leukemia patients and to create a more accurate multiple logistic regression model. 
